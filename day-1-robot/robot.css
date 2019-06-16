@@ -1,0 +1,163 @@
+/*Robot css*/
+
+h1 {
+    text-align: center;
+    color: rgb(26, 93, 133);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.robot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEAD */
+.robot-head {
+    background-color: #989797;
+    height: 67px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+
+/* FACE */
+.upper-face {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 150%;
+}
+
+.right-antena {
+    border: 2px dashed rgb(40, 92, 121);
+    width: 50px;
+    height: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.right-antena-tip {
+    background-color: rgb(40, 92, 121);
+    border: 2px solid rgb(40, 92, 121);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+    left: 50px;
+}
+
+.right-eye {
+    background-color: white;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.right-eye-pupil {
+    background-color: black;
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+
+.left-antena {
+    border: 2px dashed rgb(40, 92, 121);
+    width: 50px;
+    height: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.left-antena-tip {
+    background-color: rgb(40, 92, 121);
+    border: 2px solid rgb(40, 92, 121);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+    left: -10px;
+}
+
+.left-eye {
+    background-color: white;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.left-eye-pupil {
+    background-color: black;
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+
+.mouth {
+    background-color: #1f3852;
+    height: 12px;
+    width: 12px;
+    border-radius: 45%;
+    position: relative;
+    top: 9px;
+}
+
+/* BODY */
+.robot-body {
+    background-color: gray;
+    height: 142px;
+    width: 142px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-strip1 {
+    background-color: rgb(121, 40, 51);
+    width: 146px;
+    height: 4px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.body-strip2 {
+    background-color: rgb(40, 92, 121);
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.body-strip3 {
+    background-color: rgb(146, 96, 42);
+    width: 146px;
+    height: 7px;
+    position: relative;
+    bottom: -10px;
+    border-radius: 5px;
+}
