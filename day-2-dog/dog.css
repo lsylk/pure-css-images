@@ -1,0 +1,150 @@
+/*Dog css*/
+
+h1 {
+    text-align: center;
+    color: #881414;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEAD */
+.dog-head {
+    background-color: rgb(180, 127, 55);
+    height: 120px;
+    width: 106px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+
+/* FACE */
+.upper-face {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 230%;
+}
+
+.left-ear {
+    width: 35px;
+    height: 90px;
+    position: relative;
+    border-radius: 60px;
+    background-color: rgb(134, 79, 25);
+    left: 33px;
+    bottom: -50px;
+    border-radius: 50% 50% 50% 50% / 65% 95% 0% 30%;
+    transform: rotate(33deg);
+    box-shadow: 2px 1px #ad6824;
+}
+
+.right-eye {
+    background-color: black;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+    
+}
+
+.right-eye-pupil {
+    background-color: white;
+    height:7px;
+    width: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+
+.left-eye {
+    background-color: black;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+}
+
+.left-eye-pupil {
+    background-color: white;
+    height:7px;
+    width: 7px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+.right-ear {
+    width: 35px;
+    height: 90px;
+    position: relative;
+    border-radius: 60px;
+    background-color: rgb(134, 79, 25);
+    left: -33px;
+    bottom: -50px;
+    border-radius: 50% 50% 50% 50% / 95% 65% 30% 0%;
+    transform: rotate(-33deg);
+    box-shadow: -2px 1px #ad6824;
+}
+
+.lower-face {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nose-bridge {
+    background-color: white;
+    width: 18px;
+    height: 50px;
+    position: relative;
+    border-radius: 20% 20% 10% 10% / 95% 95% 0% 0%;
+}
+
+.snout {
+    background-color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 20% 20% 20% 20% / 65% 65% 65% 65%;
+    position: relative;
+    bottom: 9px;
+    box-shadow: 0px 1px #888888;
+}
+
+.nose {
+    background-color: black;
+    height: 15px;
+    width: 20px;
+    border-radius: 45%;
+    position: relative;
+    bottom: 47px;
+}
+
+.tongue {
+    background-color: #f3b5c8;
+    height: 26px;
+    width: 20px;
+    border-radius: 45%;
+    position: relative;
+    bottom: 35px;
+}
